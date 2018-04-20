@@ -1,0 +1,147 @@
+
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+/*
+left-nav
+*/
+.left-nav{
+    margin:0;
+    padding: 0;
+
+    list-style: none;
+
+    font-size: 18px;
+}
+
+
+.left-nav-item a{
+    cursor:default;
+}
+
+
+.left-nav>li{
+    min-height: 50px;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgba(248,248,248,1);
+
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+
+
+.left-nav-item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    line-height: 40px;
+    background-color: rgba(255,255,255,0.47);
+}
+
+.left-nav-item li{
+    border-bottom: 1px solid rgba(187,187,187,0.47);
+    background-color: rgba(255,255,255,0.47);
+}
+
+.left-nav-item>li:hover{
+    background-color: rgba(137,137,137,0.47);
+}
+
+.left-nav-item>li:first-child{
+    border-top: 1px solid rgba(187,187,187,0.47);
+}
+
+.left-nav-item>li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.left-nav>li>span{
+    display: block;
+    cursor: default;
+}
+
+
+.left-nav-item a{
+    font-size: 16px;
+    display: block;
+}
+
+.left-nav-item a:hover{
+    text-decoration: none;
+}
+
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+
+/*
+article
+*/
+#article{
+    background-color: rgba(240,240,240,0.3);
+    border: 1px solid rgba(200,200,200,0.52);
+    box-shadow: 5px 5px 5px rgba(200,200,200,0.52);
+    /*margin-top: 15px;*/
+    margin-bottom: 20px;
+    padding:0 20px;
+}
+
+#article>hr{
+    background-color: rgba(255,17,9,0.52);
+    height: 3px;
+}
+
+#Maney{
+    display: block;
+    text-align: center;
+    margin: 0 auto 100px auto;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    padding: 0;
+    border: 5px solid #605fff;
+    border-radius: 30px;
+    background-color: #605fff;
+    color: #fef83e;
+}
+
+#document-nav{
+    background-color: rgba(240,240,240,0.3);
+    border: 1px solid rgba(200,200,200,0.52);
+    box-shadow: 5px 5px 5px rgba(200,200,200,0.52);
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+#document-nav h5{
+    width: 33%;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+#document-nav>h5:first-child{
+    text-align: left;
+}
+#document-nav>h5:nth-child(3){
+    text-align: right;
+}
+
+
+article{
+    font-family: "Microsoft YaHei UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family:SansSerif,Serif;*/
+    font-size: 15px;
+    line-height: 25px;
+}
+
+code{
+    width: max-content;
+}
